@@ -30,3 +30,67 @@
 *.exe
 *.out
 *.app
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+build/
+cmake-build-*/
+.cmake/
+
+# Ninja
+.ninja_deps
+.ninja_log
+build.ninja
+
+# vcpkg
+vcpkg_installed/
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Generated files
+.DS_Store
+*.log
+generated/
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Profiling data
+gmon.out
+callgrind.out*
+perf.data*
+
+# Qt generated
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.pro.user*
+*.qmlproject.user*
+*.autosave
+
+# Binary directories
+bin/
+lib/
+out/
+Debug/
+Release/
+x64/
+x86/
