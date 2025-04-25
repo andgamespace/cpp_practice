@@ -1,0 +1,53 @@
+# Additional C/C++ artifacts
+*.elf
+*.ilk
+*.map
+*.exp
+*.gch
+*.pch
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Qt-specific
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+
+# Fortran module files
+*.mod
+*.smod
+
+# Additional build systems
+# Autotools
+/autom4te.cache
+/aclocal.m4
+/compile
+/configure
+/depcomp
+/install-sh
+/missing
+/stamp-h1
+
+# Additional IDEs
+# Eclipse
+.settings/
+.project
+.cproject
+.classpath
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Tags
+TAGS
+.TAGS
+tags
+.tags
